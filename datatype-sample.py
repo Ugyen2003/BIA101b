@@ -96,4 +96,4 @@ print(popped_element)  # Output: 3
 print(stack)  # Output: [1, 2]
 
 # Check if the stack is empty
-print(len(stack) == 0)  # Output: Falsegit
+print(len(stack) == 0)  # Output: Falsegitgi
