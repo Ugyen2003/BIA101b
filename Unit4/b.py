@@ -13,3 +13,17 @@ for i in input_str: #! go through each character
         floor_index = floor_index -1
 # print the final answer
 print('the final floor is', floor_index)        
+
+# problem 2
+input_str = ")))"
+stack = []
+for char in input_str:
+    if char =="(":
+        stack.append(char)
+    if  char == ")":
+        stack.pop(char)
+length = len(stack)
+if length == 0:
+    print('True')
+else:
+    print(False)
