@@ -38,3 +38,4 @@ dog.run(10)
 dog.run(100)
 dog.run(how_fast_should_dog_run)
 petdog.run(20)
+
